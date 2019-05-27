@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>/Users/yiciyuan/Documents/Gridea/output</id>
+    <id>https://ylovex.github.io</id>
     <title>Gridea</title>
-    <updated>2019-05-27T02:54:05.817Z</updated>
+    <updated>2019-05-27T03:38:54.484Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="/Users/yiciyuan/Documents/Gridea/output"/>
-    <link rel="self" href="/Users/yiciyuan/Documents/Gridea/output/atom.xml"/>
+    <link rel="alternate" href="https://ylovex.github.io"/>
+    <link rel="self" href="https://ylovex.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>/Users/yiciyuan/Documents/Gridea/output/images/avatar.png</logo>
-    <icon>/Users/yiciyuan/Documents/Gridea/output/favicon.ico</icon>
+    <logo>https://ylovex.github.io/images/avatar.png</logo>
+    <icon>https://ylovex.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>/Users/yiciyuan/Documents/Gridea/output/post/hello-gridea/index.html</id>
-        <link href="/Users/yiciyuan/Documents/Gridea/output/post/hello-gridea/index.html">
+        <id>https://ylovex.github.io/post/hello-gridea</id>
+        <link href="https://ylovex.github.io/post/hello-gridea">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>

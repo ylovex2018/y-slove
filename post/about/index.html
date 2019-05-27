@@ -4,10 +4,10 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>关于 | Gridea</title>
-<link rel="shortcut icon" href="/Users/yiciyuan/Documents/Gridea/output/favicon.ico?v=1558925564077">
+<link rel="shortcut icon" href="https://ylovex.github.io/favicon.ico?v=1558927902241">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-<link rel="stylesheet" href="/Users/yiciyuan/Documents/Gridea/output/styles/main.css">
+<link rel="stylesheet" href="https://ylovex.github.io/styles/main.css">
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
@@ -19,8 +19,8 @@
     <div class="main">
       <div class="main-content">
         <div class="site-header">
-  <a href="/Users/yiciyuan/Documents/Gridea/output">
-  <img class="avatar" src="/Users/yiciyuan/Documents/Gridea/output/images/avatar.png?v=1558925564077" alt="">
+  <a href="https://ylovex.github.io">
+  <img class="avatar" src="https://ylovex.github.io/images/avatar.png?v=1558927902241" alt="">
   </a>
   <h1 class="site-title">
     Gridea
@@ -31,25 +31,25 @@
   <div class="menu-container">
     
       
-        <a href="/Users/yiciyuan/Documents/Gridea/output//index.html" class="menu">
+        <a href="/" class="menu">
           首页
         </a>
       
     
       
-        <a href="/Users/yiciyuan/Documents/Gridea/output/archives/index.html" class="menu">
+        <a href="/archives" class="menu">
           归档
         </a>
       
     
       
-        <a href="/Users/yiciyuan/Documents/Gridea/output/tags/index.html" class="menu">
+        <a href="/tags" class="menu">
           标签
         </a>
       
     
       
-        <a href="/Users/yiciyuan/Documents/Gridea/output/post/about/index.html" class="menu">
+        <a href="/post/about" class="menu">
           关于
         </a>
       
@@ -93,10 +93,36 @@
         
 
         
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '3c5f45d9b6c7012f2358',
+    clientSecret: '820f840400cd22e9128f78eb477bd46bb4c46ecd',
+    repo: 'ylovex.github.io',
+    owner: 'YloveX',
+    admin: ['YloveX'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
 
         <div class="site-footer">
   Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
-  <a class="rss" href="/Users/yiciyuan/Documents/Gridea/output/atom.xml" target="_blank">RSS</a>
+  <a class="rss" href="https://ylovex.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 <script>
